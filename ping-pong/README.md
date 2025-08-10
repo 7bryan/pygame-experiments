@@ -46,4 +46,4 @@ python ping_pong.py
 ---
 
 ## 📄 License
-Licensed under the **MIT License** – see the [LICENSE](../LICENSE) file for details.
+Licensed under the **MIT License** – see the [LICENSE](/LICENSE) file for details.
