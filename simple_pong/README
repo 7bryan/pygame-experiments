@@ -1,0 +1,35 @@
+# Ping Pong
+
+A simple two-player Pong-style game made with **Pygame**.  
+Players control paddles to bounce the ball back and forth — the first to miss lets the other score.
+
+## Features
+- Player and AI gameplay (local)
+- Basic scoring system
+- Ball speed increases slightly after each hit
+- Simple Pygame-based graphics
+
+## Controls
+**Player (Right Paddle)**
+- `UP Arrow` – Move up
+- `DOWN Arrow` – Move down
+
+## Requirements
+```bash
+minimum : python 3.8
+pygame
+```
+Install Pygame:
+```bash
+pip install pygame
+```
+
+## How to Run
+From the root repo folder:
+```bash
+cd ping_pong
+python ping_pong.py
+```
+
+## License
+This project is licensed under the **MIT License** – see the [LICENSE](../LICENSE) file for details.
