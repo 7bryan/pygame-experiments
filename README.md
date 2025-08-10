@@ -1,7 +1,14 @@
-Pygame Experiments
+# 🎮 pygame-experiments
 
-A collection of small prototypes, tests, and ideas built while exploring Pygame and game development concepts.
-These projects are mostly for learning, experimenting, and having fun with game mechanics, graphics, and input handling.
-Projects Included:
- - Ping Pong – A simple two-player pong clone with basic scoring and ball speed mechanics.
- - (More experiments coming soon...)
+A collection of small projects and experiments built using [Pygame](https://www.pygame.org/).  
+Each project explores a different game mechanic, concept, or visual effect.
+
+---
+## 📂 Projects 
+- 🏓 **Ping Pong** – A simple two-player table tennis game.
+- (More experiments coming soon...)
+
+---
+
+## 📜 License
+This repository is licensed under the [MIT License](LICENSE)
