@@ -8,6 +8,7 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 fps = 60
 
+
 class Circle:
     def __init__(self, screen, color, pos, rad):
         self.screen = screen
@@ -34,6 +35,7 @@ class Circle:
         if self.pos[1] >= size[1] - self.rad or self.pos[1] <= self.rad:
             self.move_y *= -1
 
+
 def init():
     pygame.init()
     screen = pygame.display.set_mode(size)
@@ -59,6 +61,7 @@ def main_loop(screen):
                 #append the circle class to the circles list
                 circles.append(Circle(screen, color, pos, rad))
 
+
         screen.fill(black)
 
         #for each circle in circles, call the draw and move function of the circle class
@@ -66,7 +69,9 @@ def main_loop(screen):
             circle.draw()
             circle.move()
             
+
         pygame.display.update()
+
 
 def main():
     screen = init()
