@@ -17,8 +17,8 @@ class Circle:
         self.rad = rad
 
         #init the move speed of x and y
-        self.move_x = random.randint(-2, 2)
-        self.move_y = random.randint(-2, 2)
+        self.move_x = random.randint(-3, 3)
+        self.move_y = random.randint(-3, 3)
 
     def draw(self):
         pygame.draw.circle(self.screen, self.color, self.pos, self.rad)
@@ -56,6 +56,7 @@ def init():
 def main_loop(screen):
     running = True
     circles = [] #list for string all the cirle class in the screen
+    clock = pygame.time.Clock()
 
     while running:
         for event in pygame.event.get():
@@ -91,6 +92,7 @@ def main_loop(screen):
                     c2.move_y *= -1
 
         pygame.display.update()
+        clock.tick(fps)
 
 
 def main():
